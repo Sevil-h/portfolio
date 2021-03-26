@@ -1,2 +1,40 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="content homepage-body">
+  <div class="card">
+    <div class="card__side card__side--front">
+      <!-- Front Content -->
+      <div class="card__cont">
+        <div><span class="blue">alert</span>
+          <span>(<span class="green">'Hello!'</span>)</span>
+        </div>
+      </div>
+    </div>
+    <div class="card__side card__side--back">
+      <!-- Back Content -->
+      <div class="card__cta">
+        <p><span class="purple">const</span> aboutMe <span class="cyan">=</span> {
+          <br />
+          <span class="space red">name</span>
+          <span class="cyan">:</span> <span class="green">'Sabriye Sevil Hatipoglu'</span>,
+          <br/>
+          <span class="space red">email</span>
+          <span class="cyan">:</span> <span class="green">'sevilhatipogluu93@gmail.com'</span>',
+          <br/>
+          <span class="space red">position</span>
+          <span class="cyan">:</span>
+          <span class="green">'Jr. Front-end Developer'</span>,
+          <br/>
+          <span class="space red">about_me</span>
+          <span class="cyan">:</span> <span class="green">'Amatuer artits who is passion about drawing and find a way to implement that passion on the Front-end developer after gratuated Le Wagon Istanbul(#567) bootcamp.'</span>,
+          <br/>
+          };
+        </p>
+        <p>
+          <span><a href="https://github.com/Sevil-h" target="_blank"><i class="fab fa-github link"></i></a></span>
+          <span><a href="https://www.linkedin.com/in/sabriye-sevil-hatipoglu-820418188/" target="_blank"><i class="fab fa-linkedin link"></i></a></span>
+          <span><a href="https://www.instagram.com/eurydiice_/" target="_blank"><i class="fab fa-instagram link"></i></i></a></span>
+          <span><%= link_to 'portfolio =>', portfolio_path , class: "link"%></span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
