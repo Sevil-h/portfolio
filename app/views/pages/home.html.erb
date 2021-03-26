@@ -1,4 +1,4 @@
-<div class="content homepage-body">
+<div class="content">
   <div class="card">
     <div class="card__side card__side--front">
       <!-- Front Content -->
@@ -24,15 +24,17 @@
           <span class="green">'Jr. Front-end Developer'</span>,
           <br/>
           <span class="space red">about_me</span>
-          <span class="cyan">:</span> <span class="green">'Amatuer artits who is passion about drawing and find a way to implement that passion on the Front-end developer after gratuated Le Wagon Istanbul(#567) bootcamp.'</span>,
+          <span class="cyan">:</span> <span class="green"><%= link_to "@More_things_about_me ->", aboutme_path, class: "link" %></span>,
+          <br/>
+          <span class="space red">portfolio</span>
+          <span class="cyan">:</span> <span class="green"><%= link_to " @To_see_my_portfolio ->", portfolio_path, class: "link" %></span>,
           <br/>
           };
         </p>
         <p>
-          <span><a href="https://github.com/Sevil-h" target="_blank"><i class="fab fa-github link"></i></a></span>
-          <span><a href="https://www.linkedin.com/in/sabriye-sevil-hatipoglu-820418188/" target="_blank"><i class="fab fa-linkedin link"></i></a></span>
-          <span><a href="https://www.instagram.com/eurydiice_/" target="_blank"><i class="fab fa-instagram link"></i></i></a></span>
-          <span><%= link_to 'portfolio =>', portfolio_path , class: "link"%></span>
+          <span><a href="https://github.com/Sevil-h" target="_blank"><i class="fab fa-github social-link"></i></a></span>
+          <span><a href="https://www.linkedin.com/in/sabriye-sevil-hatipoglu-820418188/" target="_blank"><i class="fab fa-linkedin social-link"></i></a></span>
+          <span><a href="https://www.instagram.com/eurydiice_/" target="_blank"><i class="fab fa-instagram social-link"></i></i></a></span>
         </p>
       </div>
     </div>
