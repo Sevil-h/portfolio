@@ -1,8 +1,28 @@
 <div class="container">
   <div class="about-me-card">
-    <img src="/assets/IMG_9237.jpg" alt="profile image" class="cv-avatar">
-    <h1>About Me</h1>
-    <h2>Sabriye Sevil Hatipoglu</h2>
-    <p>I am an amatuer artits who is passion about drawing and painting. In the light of my passion and my education , find a way to implement that passion on the Front-end developer after gratuated Le Wagon Istanbul bootcamp.</p>
+    <div class="info">
+      <img src="/assets/IMG_9237.jpg" alt="profile image" class="cv-avatar">
+      <h1 class="carmine">About Me</h1>
+      <h2 class="carmine">Sabriye Sevil Hatipoglu</h2>
+      <p>I am an amatuer artits who is passion about drawing and painting. In the light of my passion and my education , find a way to implement that passion on the Front-end developer after gratuated Le Wagon Istanbul 9 weeks web-development course bootcamp.</p>
+    </div>
+    <div>
+      <div class="skills-card">
+        <h2 class="salmon">Technical Skills</h2>
+          <p><i class="fas fa-circle-notch point"></i> Css, HTML</p>
+          <p><i class="fas fa-circle-notch point"></i> JS basic</p>
+          <p><i class="fas fa-circle-notch point"></i> Ruby on Rails</p>
+          <p><i class="fas fa-circle-notch point"></i> SQL</p>
+          <p><i class="fas fa-circle-notch point"></i> APIs, JSON, scraping</p>
+          <p><i class="fas fa-circle-notch point"></i> GIT, Github</p>
+      </div>
+    </div>
+  <div class="info-bottom">
+    <h4>Currently learning JS and React</h4>
+    <div>
+      <%= link_to "Home page", root_path, class: 'btn' %>
+      <%= link_to "To see my portfolio", portfolio_path, class: 'btn' %>
+    </div>
+  </div>
   </div>
 </div>

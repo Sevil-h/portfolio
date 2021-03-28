@@ -1,8 +1,25 @@
 .about-me-card{
   padding: 70px;
-  margin: 30px;
+  margin: 20px;
   border-radius: 16px;
   box-shadow: 0 0 8px rgba(0,0,0,0.5);
   background-color: #f1e5d9;
+  color: #2B2D42;
 }
 
+.skills-card{
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-align: center;
+  li::marker{
+    text-align: auto;
+  }
+}
+.info-bottom{
+  text-align: center;
+}
+.point {
+  opacity: 0.5;
+}

@@ -1,8 +1,15 @@
 .link{
-  color: #FF931F;
+  color: #FFDA0A;
   text-decoration: none;
   &:hover{
     opacity: 0.8;
     text-decoration: none;
+  }
+}
+.social-link{
+  font-size: 20px;
+  color: #A8A8B3;
+  &:hover{
+    opacity:0.7;
   }
 }
