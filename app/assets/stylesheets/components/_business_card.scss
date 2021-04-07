@@ -9,11 +9,11 @@ $carmine: #AF4831;
 $blue: #29b6f6;
 $green: #9ccc65;
 $purple: #ba68c8;
-$orange: #f57c00;
 $red: #ef5350;
 $cyan: #4dd0e1;
-$background-light: #DD9787;
-$background-dark: #DD9787;
+$orange: #f57c00;
+$background-light: #ffa726;
+$background-dark: #ff9800;
 
 body {
   background-image: linear-gradient(
@@ -61,7 +61,7 @@ body {
   align-items: center;
 }
 
-.card {
+.fcard {
   //FUNCTIONALITY
   perspective: 150rem;
   height: 20rem;
@@ -85,13 +85,13 @@ body {
     box-shadow: 0 1.5rem 4rem rgba(black, 0.4);
 
     &--front {
-      background-color: #2B2D42;
+      background-color: #1c1c1c;
     }
 
     &--back {
       transform: rotateY(180deg);
 
-      background-color: #2B2D42;
+      background-color: #1c1c1c;
     }
   }
 
@@ -106,7 +106,7 @@ body {
   //FRONT SIDE STYLING
   &__cont {
     height: 15rem;
-    background-color: #2B2D42;
+    background-color: #1c1c1c;
 
     display: flex;
     align-items: center;
