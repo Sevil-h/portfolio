@@ -8,7 +8,7 @@
 }
 .works {
   padding-bottom: 3%;
-  background: #fff;
+  background: #1c1c1c;
 }
 .works-thumb {
   height: 320px;
@@ -65,14 +65,32 @@
 }
 .works h1 {
   margin: 10% 0;
+  color: white;
 }
 
 .proje{
   padding-bottom: 3%;
-  background: #fff;
+  background: #1c1c1c;
 }
 
-.proje h1{
-  margin-top: 20%;
+.header{
+  margin: 20%;
   margin-bottom: 20px;
+  color: #E9EAEC;
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  letter-spacing: .3em;
+}
+.header span{
+  border: 4px double rgba(255,255,255,.25);
+  border-width: 4px 0;
+  padding: 16px;
+  color: #E9EAEC;
+}
+.text {
+  color: #E9EAEC;
+}
+
+.p-skills{
+  opacity: 0.7;
 }
