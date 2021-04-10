@@ -1,4 +1,4 @@
-.cv-avatar{
+.cv-avatar {
   width: 170px;
   height: 170px;
   border-radius: 50%;
@@ -6,68 +6,51 @@
   margin: 10px;
 }
 .info {
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 0 2px rgba(171,192,216,0.2);
+  margin-top: 32px;
+  border: 4px double rgba(255,255,255,.25);
+  border-width: 4px;
   padding: 16px;
-  margin: 8px;
-}
-
-.about-me-card{
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.5);
-  background-color: #f1e5d9;
-  color: #2B2D42;
-  position: relative;
-}
-
-.skills-card{
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-  li::marker{
-    text-align: auto;
-  }
-  h4{
-    opacity: 0.7;
+  color: #E9EAEC;
+  h1, h2, p{
+    color: #E9EAEC;
   }
 }
-.info-bottom{
+.info-top {
   text-align: center;
+  padding: 20px 10px;
+  h2{
+    opacity: 0.8;
+  }
 }
-.point {
-  opacity: 0.5;
-}
-.small-card{
+.info-middle{
+  color: #E9EAEC;
   display: flex;
   justify-content: space-around;
+  padding: 16px;
+  margin: 16px;
+  h2{
+    opacity: 0.8;
+  }
+  .tech-card{
+    border: 4px double rgba(255,255,255,.25);
+    border-width: 4px;
+    padding: 40px;
+  }
+  .personal-skill-card{
+    border: 4px double rgba(255,255,255,.25);
+    border-width: 4px;
+    padding: 40px;
+  }
 }
-.buble{
-  padding: 50px;
-  margin: 8px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border-radius: 50%;
-  background-color: rgba(237,200,191,0.4);
+.info-bottom {
+  color: #E9EAEC;
+  display: flex;
+  justify-content: space-around;
+  border: 4px double rgba(255,255,255,.25);
+  border-width: 4px;
+  padding: 40px;
+  h4{
+    opacity: 0.8;
+  }
 }
-.small-buble{
-  padding: 30px;
-  margin: 10px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border-radius: 50%;
-  background-color: #AFC0B5;
 
-}
-.smallest-buble{
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border-radius: 30%;
-  background-color: #f1e5d9;
-}
-.social-buble{
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border-radius: 50%;
-  background-color: rgba(53,57,97,0.5);
-}
