@@ -1,11 +1,12 @@
 .navbar-lewagon {
   justify-content: space-between;
   // background: transparent;
-  background: linear-gradient(to bottom right, #ff9800, #ffa726);
+  background: transparent;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   width: 100vw;
   top: 0;
+  transition: 0.5s background-color ease;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -20,3 +21,6 @@
   }
 }
 
+.navbar-lewagon-black{
+ background-color: #1c1c1c;
+}
