@@ -58,3 +58,23 @@
   text-align: center;
   padding: 16px;
 }
+.references-card{
+  color: #E9EAEC;
+  border: 4px double rgba(255,255,255,.25);
+  border-width: 4px;
+  padding: 40px;
+  margin-bottom: 50px;
+  h4{
+    opacity: 0.8;
+    text-align: center;
+  }
+}
+.references-info{
+  display: flex;
+  justify-content: space-around;
+}
+.ref-info{
+  padding: 8px;
+  margin: 8px;
+  text-align: center;
+}
