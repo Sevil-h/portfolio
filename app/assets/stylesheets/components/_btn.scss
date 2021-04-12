@@ -6,6 +6,7 @@
   &:hover{
     opacity: 0.7;
     color: $orange;
+    transition: all 1s ease-in-out;
   }
 }
 .project-btn{
