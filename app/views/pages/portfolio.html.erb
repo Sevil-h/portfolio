@@ -4,22 +4,24 @@
     <h1 class="header text-center"><span>Portfolio</span></h1>
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-12">
-        <a href="#bookarts">
           <div class="block wow rotateInDownLeft" data-wow-delay="0.3s" data-wow-duration=".8s">
             <div class="works-thumb work-card" style=" background-image: url(<%= image_path('bookarts.png') %>);"></div>
             <div class="works-caption">
+              <%= link_to bookarts_path do %>
               BookArts
+              <% end %>
             </div>
-          </div></a>
+          </div>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
-          <a href="#galata">
             <div class="block wow rotateInDownLeft" data-wow-delay="0.45s" data-wow-duration=".8s">
               <div class="works-thumb work-card" style=" background-image: url(<%= image_path('galata.png') %>);"></div>
               <div class="works-caption">
+                <%= link_to galata_path do %>
                 Galata
+                <% end %>
               </div>
-            </div></a>
+            </div>
           </div>
 <!--           <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="#lecocktailst">

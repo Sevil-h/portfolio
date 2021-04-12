@@ -60,8 +60,19 @@
   transition: top 0.5s;
   font-weight: bold;
 }
+.works-caption{
+  a{
+    text-align: center;
+    font-family: "Lato", serif;
+    font-size: 1.7rem;
+    letter-spacing: 0.4rem;
+    color: $orange;
+    text-decoration: none;
+  }
+}
 .block:hover .works-caption {
   top: 33%;
+  text-decoration: none;
 }
 .works h1 {
   margin: 60px 0;
