@@ -4,4 +4,10 @@ class PagesController < ApplicationController
 
   def aboutme
   end
+
+  def bookarts
+  end
+
+  def galata
+  end
 end
