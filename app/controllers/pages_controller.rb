@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def galata
   end
+
+  def watchlist
+  end
 end

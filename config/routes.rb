@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/mistercocktails', to: 'pages#mistercocktails'
   get '/bookarts', to: 'pages#bookarts'
   get '/galata', to: 'pages#galata'
+  get '/watchlist', to: 'pages#watchlist'
 end
