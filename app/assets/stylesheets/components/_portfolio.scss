@@ -70,6 +70,13 @@
     text-decoration: none;
   }
 }
+.p-text{
+  text-align: center;
+  font-family: "Lato", serif;
+  color: $orange;
+  font-weight: bold;
+  margin-top: 5px;
+}
 .block:hover .works-caption {
   top: 33%;
   text-decoration: none;
