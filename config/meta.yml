@@ -1,0 +1,4 @@
+meta_product_name: "Portfolio"
+meta_title: "Sevil's Portfolio"
+meta_description: "Personal Front-end Developer portfolio"
+meta_image: "portfolio_cover.png" # should exist in `app/assets/images/`
